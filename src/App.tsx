@@ -51,7 +51,7 @@ setupIonicReact();
 
 const App: React.FC = () => (
   <IonApp>
-    <IonReactRouter>
+    <IonReactRouter basename="/lab06_ionic_firebase">
       <IonTabs>
         <IonRouterOutlet>
           <Route exact path="/tab1">
